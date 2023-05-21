@@ -15,6 +15,6 @@ if __name__ == '__main__':
 
     # In another terminal, use the below code to send a command to the server
     command = 'encrypt'  # or 'decrypt'
-    source_path = r'C:\Users\BLACK\Desktop\BLACK\Python\service\Test\ParaViewTutorial-5.11.0.pdf'
-    dest_path = r'C:\Users\BLACK\Desktop\BLACK\Python\service\Test\ParaViewTutorial-5.11.0.pdf.enc'
+    source_path = r'C:\Users\file0.pdf'
+    dest_path = r'C:\Users\file0.pdf.enc'
     send_command(host, port, command, source_path, dest_path)
